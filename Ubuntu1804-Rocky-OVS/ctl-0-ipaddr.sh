@@ -11,7 +11,7 @@ config_hostname () {
 
 	cat << EOF >/etc/hosts
 127.0.0.1	localhost
-
+127.0.0.1	$HOST_CTL
 $CTL_MGNT_IP	$HOST_CTL
 $COM1_MGNT_IP	$HOST_COM1
 $COM2_MGNT_IP	$HOST_COM2
